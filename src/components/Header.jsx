@@ -30,7 +30,7 @@ const Header = () => {
 
   return (
     <header className={`fixed flex justify-between w-screen py-4 px-60 transition-all duration-300 ${headerBg} ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-      <img src="./src/assets/Suitmedia_Logo.png" alt="Logo_Suitmedia" className="w-[128px] h-[50px]" />
+      <img src="./public/assets/Suitmedia_Logo.png" alt="Logo_Suitmedia" className="w-[128px] h-[50px]" />
       <nav className="flex items-center text-white text-[18px] gap-6">
         {/* Ganti 'Ideas' dengan style active jika ini halaman ideas */}
         <div className="flex flex-col items-center">

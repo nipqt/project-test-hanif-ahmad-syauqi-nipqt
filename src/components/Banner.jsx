@@ -14,7 +14,7 @@ function Banner() {
         <div className="relative pt-20 h-[50vh] flex items-center justify-center text-white overflow-hidden -z-10">
             {/* Gambar Banner */}
             <img
-                src="./src/assets/patrick-tomasso-1NTFSnV-KLs-unsplash.jpg"
+                src="./public/assets/patrick-tomasso-1NTFSnV-KLs-unsplash.jpg"
                 alt="Banner"
                 className="absolute top-0 left-0 w-full h-full object-cover"
                 style={{ transform: `translateY(${offsetY * 0.5}px)` }}
